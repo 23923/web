@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        
+        form {
+            max-width: 500px;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+select option {
+    padding: 10px;
+}
+
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+       #button-contact {
+            background-color: #f383d5;
+            color: #282828;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #button-contact:hover {
+            background-color: #b3b3b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/parcours.png" alt="icone-parcours" id="img-parcours">
+        <h1> Trabelsi Mariem</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <div class="dropdown-container">
+            <a href="parcours.html" class="parcours-dropdown">parcours</a>
+            <div class="dropdown-content">
+                <a href="parcour-acedimique.html">parcours académique</a>
+                <a href="campetance-info.html">compétences informatiques</a>
+                <a href="stages.html">stages</a>
+                <a href="matiere.html">matières</a>
+                <a href="passion.html">passions</a>
+
+            </div>
+        </div>
+      
+        <a href="contact.html" class="couleur">Contact</a>
+        <a href="quize.html">Quizz</a>
+        <a href="iit.html">IIT</a>
+    </nav>
+    
+    <form action="#" method="post" class="formulaire">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+        <label for="prenom">Prenom:</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <label for="city">Ville :</label>
+    <select id="city" name="city" required>
+        <option value="" disabled selected>Sélectionnez une ville</option>
+        <option value="tunis">Tunis</option>
+        <option value="sfax">Sfax</option>
+        <option value="sousse">Sousse</option>
+   
+    </select>
+
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button id ="button-contact"type="submit">Envoyer</button>
+    </form>
+
+</body>
+<footer>
+    <p>+216 00 000 000 | myriam12trabelsi@gmail.com | Sfax, Tunisie</p>
+</footer>
+</html>

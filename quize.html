@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz sur la Programmation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body >
+    <header>
+        <img src="images/parcours.png" alt="icone-parcours" id="img-parcours">
+        <h1> Trabelsi Mariem</h1>
+    </header>
+    <nav>
+        <a href="index.html" >Accueil</a>
+        <div class="dropdown-container">
+            <a href="parcours.html" class="parcours-dropdown">parcours</a>
+            <div class="dropdown-content">
+                <a href="parcour-acedimique.html">parcours académique</a>
+                <a href="campetance-info.html">compétences informatiques</a>
+                <a href="stages.html">stages</a>
+                <a href="matiere.html">matières</a>
+                <a href="passion.html">passions</a>
+
+            </div>
+        </div>
+        <a href="contact.html">Contact</a>
+        <a href="quize.html"class="couleur">Quizz</a>
+        <a href="iit.html">IIT</a>
+    </nav>
+    
+    <div class="body-quiz">
+    <h1 class="title-quiz">Quizz sur la Programmation</h1>
+
+    <form id="quizForm">
+        <label class="label-quiz">1. Qu'est-ce que HTML?</label>
+        <div class="quiz"><input type="radio" name="q1" value="a"> Langage de programmation</div>
+        <div class="quiz"><input type="radio" name="q1" value="b"> HyperText Markup Language</div>
+        <div class="quiz"><input type="radio" name="q1" value="c"> Format de fichier</div>
+        <div class="quiz"> <input type="radio" name="q1" value="d"> Logiciel de développement web</div>
+
+        <label class="label-quiz">2. Quelle est la syntaxe correcte en JavaScript pour afficher "Hello World" dans la console?</label>
+        <div class="quiz"><input type="radio" name="q2" value="a"> console.print("Hello World");</div>
+        <div class="quiz"><input type="radio" name="q2" value="b"> log.console("Hello World");</div>
+        <div class="quiz"><input type="radio" name="q2" value="c"> print("Hello World");</div>
+        <div class="quiz"><input type="radio" name="q2" value="d"> console.log("Hello World");</div>
+        <label class="label-quiz">3. Quelle est la différence entre "let" et "const" en JavaScript?</label>
+        <div class="quiz"><input type="radio" name="q3" value="a"> "let" est utilisé pour déclarer une variable constante, tandis que "const" est utilisé pour déclarer une variable pouvant être réassignée.</div>
+        <div class="quiz"><input type="radio" name="q3" value="b"> "let" est utilisé pour déclarer une variable qui ne peut pas être réassignée, tandis que "const" est utilisé pour déclarer une variable pouvant être réassignée.</div>
+        <div class="quiz"><input type="radio" name="q3" value="c"> Il n'y a aucune différence entre "let" et "const".</div>
+        <div class="quiz"><input type="radio" name="q3" value="d"> "let" est utilisé pour déclarer une variable globale, tandis que "const" est utilisé pour déclarer une variable locale.</div>
+        <label class="label-quiz">4. Qu'est-ce que Git?</label>
+        <div class="quiz"><input type="radio" name="q4" value="a"> Un langage de programmation</div>
+        <div class="quiz"><input type="radio" name="q4" value="b"> Un système de gestion de bases de données</div>
+        <div class="quiz"><input type="radio" name="q4" value="c"> Un outil de contrôle de version</div>
+        <div class="quiz"><input type="radio" name="q4" value="d"> Un framework JavaScript</div>
+        <label class="label-quiz">5. Quelle propriété CSS est utilisée pour définir la couleur du texte?</label>
+        <div class="quiz"><input type="radio" name="q5" value="a"> background-color</div>
+        <div class="quiz"><input type="radio" name="q5" value="b"> text-color</div>
+        <div class="quiz"><input type="radio" name="q5" value="c"> color</div>
+        <div class="quiz"><input type="radio" name="q5" value="d"> font-color</div>
+        <label class="label-quiz">6. Comment sélectionne-t-on tous les éléments de paragraphe (p) dans une page HTML avec du CSS?</label>
+        <div class="quiz"><input type="radio" name="q6" value="a"> p * { }</div>
+        <div class="quiz"><input type="radio" name="q6" value="b"> p > * { }</div>
+        <div class="quiz"><input type="radio" name="q6" value="c"> p ~ * { }</div>
+        <div class="quiz"><input type="radio" name="q6" value="d"> p { }</div>
+        <label class="label-quiz">7. Quelle propriété CSS est utilisée pour définir la taille de la police d'un texte?</label>
+        <div class="quiz"><input type="radio" name="q7" value="a"> text-style</div>
+        <div class="quiz"><input type="radio" name="q7" value="b"> font-size</div>
+        <div class="quiz"><input type="radio" name="q7" value="c"> text-size</div>
+        <div class="quiz"><input type="radio" name="q7" value="d"> font-style</div>
+        <label class="label-quiz">8. Quelle est la méthode JavaScript utilisée pour ajouter un nouvel élément HTML à une page?</label>
+        <div class="quiz"><input type="radio" name="q8" value="a"> appendChild</div>
+        <div class="quiz"><input type="radio" name="q8" value="b"> createChild</div>
+        <div class="quiz"><input type="radio" name="q8" value="c"> insertElement</div>
+        <div class="quiz"><input type="radio" name="q8" value="d"> addElement</div>
+        <label class="label-quiz">9. Comment déclare-t-on une variable en JavaScript?</label>
+        <div class="quiz"><input type="radio" name="q9" value="a"> new variable x;</div>
+        <div class="quiz"><input type="radio" name="q9" value="b"> let x = variable;</div>
+        <div class="quiz"><input type="radio" name="q9" value="c"> var x = variable;</div>
+        <div class="quiz"><input type="radio" name="q9" value="d"> x = variable;</div>
+<div class="quiz"><label class="label-quiz">10. Quelle propriété CSS est utilisée pour centrer un élément horizontalement?</label>
+<div class="quiz"><input type="radio" name="q10" value="a"> text-align: center;</div>
+<div class="quiz"><input type="radio" name="q10" value="b"> align: center;</div>
+<div class="quiz"><input type="radio" name="q10" value="c"> margin: auto;</div>
+<div class="quiz"></div><input type="radio" name="q10" value="d"> horizontal-align: center;</div>
+                                                        
+
+        <button type="button" class="button-quiz " onclick="calculateScore()">Valider</button>
+    </form>
+
+    <div id="result-quiz"></div>
+
+   
+</div>
+</body>
+<footer>
+    <p>+216 00 000 000 | myriam12trabelsi@gmail.com | Sfax, Tunisie</p>
+</footer>
+</html>
